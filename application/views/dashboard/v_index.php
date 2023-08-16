@@ -1,0 +1,27 @@
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>
+            POLITEKNIK NEGERI BANJARMASIN <br>
+            Program Studi Teknik Informatika
+            <small></small>
+        </h1>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <h3 class="box-title">INI HALAMAN INDEX</h3>
+                    </div>
+                    <div class="box-body chat" id="chat-box">
+                        Anda berhasil Login. <br />
+                        anda login sebagai <br />
+                        Username : <?php echo $this->session->userdata('username') ?> <br />
+                        Level : <?php echo $this->session->userdata('level') ?> <br />
+                        id pengguna : <?php echo $this->session->userdata('id') ?> <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
